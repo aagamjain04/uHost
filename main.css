@@ -16,11 +16,21 @@ body {
 
 .section-title {
     color: #5fa772;
+    text-align: center;
 }
 
 #product-overview h1 {
     color: rgb(211, 187, 235);
     font-family: 'Righteous', cursive;
+}
+.plan{
+    background: #d5ffdc;
+    text-align: center;
+    padding: 16px;
+    margin: 8px;
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
 }
 
 /* h1 {
@@ -31,7 +41,7 @@ body {
     width: 100%;
     background: rgb(51, 41, 41);
     padding: 8px 16px;
-    border-bottom: 5px solid white;
+    margin-bottom: 2px;
 }
 
 .main-header > div {
