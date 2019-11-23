@@ -31,6 +31,7 @@ body {
     width: 100%;
     background: rgb(51, 41, 41);
     padding: 8px 16px;
+    border-bottom: 5px solid white;
 }
 
 .main-header > div {
@@ -84,6 +85,7 @@ body {
     background: white;
     padding: 8px 16px;
     border-radius: 8px;
+    
 }
 
 .main-nav__item--cta a:hover,
