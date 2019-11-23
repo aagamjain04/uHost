@@ -29,7 +29,7 @@ body {
 
 .main-header {
     width: 100%;
-    background: rgb(107, 65, 65);
+    background: rgb(51, 41, 41);
     padding: 8px 16px;
 }
 
@@ -39,7 +39,7 @@ body {
 }
 
 .main-header__brand {
-    color: black;
+    color: rgb(78, 126, 64);
     text-decoration: none;
     font-weight: bold;
     font-size: 22px;
@@ -68,7 +68,7 @@ body {
 
 .main-nav__item a {
     text-decoration: none;
-    color: rgb(10, 10, 10);
+    color: white;
     font-weight: bold;
     padding: 3px 0;
 }
