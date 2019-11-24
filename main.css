@@ -32,6 +32,11 @@ body {
     width: 30%;
     vertical-align: middle;
 }
+#plan-sec{
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
 .centre-plan{
     color: white;
     background-color: rgb(98, 151, 85);
@@ -157,7 +162,43 @@ body {
     background: rgb(226, 97, 97);
     border: none;
 }
-.section-title::first-letter{
-    color:rgb(32, 109, 32)
+#reason{
+    background-color:rgb(65, 64, 62);
+    margin: 80px 0px;
+    padding: 30px;
 }
+#reason h1{
+    color:white ;
+    text-align: center;
+    padding: 0px 20px 20px 20px;
+}
+#reason ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+#reason li{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin: auto;
 
+}
+#reason p{
+    color: #25c4a4;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+#reason div{
+    background-color: #a56868;
+    height: 128px;
+    width: 128px;
+    border: 2px solid;
+    border-radius: 50%;
+    display: inline-block
+    
+}
