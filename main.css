@@ -95,7 +95,7 @@ body {
 .main-header {
     width: 100%;
     background: rgb(65, 64, 62);
-    padding: 8px 16px;
+    padding: 16px 16px;
     
 }
 .line{
@@ -163,7 +163,7 @@ body {
     border: none;
 }
 #reason{
-    background-color:rgb(65, 64, 62);
+    background-color:rgb(216, 113, 95);
     margin: 80px 0px;
     padding: 30px;
 }
@@ -188,17 +188,50 @@ body {
 
 }
 #reason p{
-    color: #25c4a4;
+    color: #0b0e0d;
     font-size: 20px;
     font-weight: bold;
     
 }
 #reason div{
-    background-color: #a56868;
+    background-color: #f8f5f5;
     height: 128px;
     width: 128px;
     border: 2px solid;
     border-radius: 50%;
     display: inline-block
     
+}
+.footer{
+    background: #293B4F;
+    height: 128px;
+    
+}
+.footer ul{
+    list-style: none;
+    margin: 0px;
+    padding: 40px;
+    text-align: center;
+    
+}
+.footer li{
+    display: inline-block;
+    margin: 0px 40px;
+    
+}
+.footer a{
+    color: rgb(169, 174, 175);
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.footer a:hover,
+.footer a:active{
+    color:white ;
+}
+.copyright{
+    background-color: #203042;
+    color: #7B90A1;
+    text-align: center;
+    padding: 8px;
 }
