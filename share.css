@@ -1,1 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+.button{
+    font: inherit;
+    color: white;
+    background: rgba(2, 27, 2, 0.699) ;
+    padding: 8px;
+    border: 6px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
 
+}
+.button:hover,
+.button:active{
+    color: rgb(32, 109, 32) ;
+    background: white;
+}
+.button:focus{
+    outline:none;
+}
+.main-header {
+    width: 100%;
+    background: rgb(65, 64, 62);
+    padding: 16px 16px;
+    
+}
+.line{
+    background-color: #25c4a4;
+    height: 4px;
+}
+
+.main-header > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__brand {
+    color: #25c4a4;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 22px;
+    
+    
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 74px);
+    vertical-align: middle;
+    }
+
+.main-nav__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav__item {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.main-nav__item a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 3px 0;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.main-nav__item--cta a {
+    color:black;
+    background: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+    color:white;
+    background: rgb(226, 97, 97);
+    border: none;
+}
+.footer{
+    background: #293B4F;
+    height: 128px;
+    margin:32px 0px 0px 0px;
+    
+}
+.footer ul{
+    list-style: none;
+    margin: 0px;
+    padding: 40px;
+    text-align: center;
+    
+}
+.footer li{
+    display: inline-block;
+    margin: 0px 40px;
+    
+}
+.footer a{
+    color: rgb(169, 174, 175);
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.footer a:hover,
+.footer a:active{
+    color:white ;
+}
+.copyright{
+    background-color: #203042;
+    color: #7B90A1;
+    text-align: center;
+    padding: 8px;
+}
