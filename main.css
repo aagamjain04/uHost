@@ -22,6 +22,9 @@ body {
 
 #product-overview h1 {
     font-family: 'Righteous', cursive;
+    color: rgb(58, 45, 45);
+    text-align: center;
+    margin: 62px 0px;
 }
 .plan{
     background: #c3f0a3;
@@ -33,7 +36,8 @@ body {
     vertical-align: middle;
 }
 #plan-sec{
-    margin: 20px;
+    margin: auto;
+    width: 80%;
     padding: 10px;
     text-align: center;
 }
@@ -164,7 +168,7 @@ body {
 }
 #reason{
     background-color:rgb(216, 113, 95);
-    margin: 80px 0px;
+    margin: 80px 40px;
     padding: 30px;
 }
 #reason h1{
