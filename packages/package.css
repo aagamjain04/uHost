@@ -2,7 +2,10 @@
     background: rgba(213, 255, 220, 0.95);
     padding: 32px;
     width: 70%;
-    margin:32px 0px;
+    margin:32px 0px;  
+}
+#plus{
+    position: relative;
 }
 .section-3{
     background-color: rgb(98, 151, 85);
@@ -61,4 +64,22 @@
 
 .clear{
     clear: right;
+}
+.background{
+    background-image: url("plans-background.jpg");
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+}
+.badge{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    font-size: 12px;
+    color: white;
+    background: #ff5454;
+    padding: 8px;
 }
