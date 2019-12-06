@@ -128,7 +128,7 @@ body {
 }
 .copyright{
     background-color: #203042;
-    background-position: bottom;
+    margin: 0px;
     color: #7B90A1;
     text-align: center;
     padding: 8px;
