@@ -207,7 +207,8 @@ body {
     width: 128px;
     border: 2px solid;
     border-radius: 50%;
-    display: inline-block
+    display: inline-block;
+    padding: 20px;
     
 }
 .footer{

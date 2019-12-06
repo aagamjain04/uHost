@@ -66,7 +66,8 @@
     clear: right;
 }
 .background{
-    background-image: url("../images/plans-background.jpg");
+    background: url("../images/plans-background.jpg") center/cover;
+    filter: grayscale(100%);
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
