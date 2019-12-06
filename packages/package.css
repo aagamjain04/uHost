@@ -72,6 +72,7 @@
     position: fixed;
     z-index: -1;
     top: 0;
+    overflow: hidden;
 }
 .badge{
     position: absolute;
