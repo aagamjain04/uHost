@@ -4,19 +4,18 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 59px 0px 0px 0px;
+    margin: 3.6875rem 0rem 0rem 0rem;
 }
 
 #product-overview {
     background: url("images/freedom.jpg");
     background-size:100%;
-    background-position: 0% 5%;
     background-origin: border-box;
     background-clip: border-box;
     background-repeat: no-repeat;
     width: 100%;
-    height: 528px;
-    padding: 10px; 
+    height: 33rem;
+    padding: 0.625rem; 
   
 }
 
@@ -29,13 +28,13 @@ body {
     font-family: 'Righteous', cursive;
     color: rgb(58, 45, 45);
     text-align: center;
-    margin: 62px 0px;
+    margin: 3.875rem 0rem;
 }
 .plan{
     background: #c3f0a3;
     text-align: center;
-    padding: 16px;
-    margin: 8px;
+    padding: 1rem;
+    margin: 0.5rem;
     display: inline-block;
     width: 30%;
     vertical-align: middle;
@@ -43,7 +42,7 @@ body {
 #plan-sec{
     margin: auto;
     width: 80%;
-    padding: 10px;
+    padding: 0.625rem;
     text-align: center;
 }
 .centre-plan{
@@ -54,8 +53,8 @@ body {
 .recommended{
     background: white;
     color:rgb(32, 109, 32);
-    border-radius: 8px;
-    padding: 4px 0px;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0rem;
     box-shadow:  2px 2px 2px 2px rgba(0,0,0,0.5);;
 }
 .list{
@@ -64,7 +63,7 @@ body {
     padding: 0;
     }
 .list li{
-    margin:8px 0px;
+    margin:0.5rem 0rem;
 } 
 .plan-type{
     color: rgb(32, 109, 32);
@@ -170,15 +169,16 @@ body {
     background: rgb(226, 97, 97);
     border: none;
 }
+
 #reason{
     background-color:rgb(216, 113, 95);
-    margin: 80px 40px;
-    padding: 30px;
+    margin: 5rem 2.5rem;
+    padding: 1.875rem;
 }
 #reason h1{
     color:white ;
     text-align: center;
-    padding: 0px 20px 20px 20px;
+    padding: 0rem 1.25rem 1.25rem 1.25rem;
 }
 #reason ul{
     list-style: none;
@@ -197,42 +197,42 @@ body {
 }
 #reason p{
     color: #0b0e0d;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
     
 }
 #reason div{
     background-color: #f8f5f5;
-    height: 128px;
-    width: 128px;
+    height: 8rem;
+    width: 8rem;
     border: 2px solid;
     border-radius: 50%;
     display: inline-block;
-    padding: 20px;
+    padding: 1.25rem;
     
 }
 .footer{
     background: #293B4F;
-    height: 128px;
-    margin:32px 0px 0px 0px;
+    height: 5rem;
+    margin:2rem 0rem 0rem 0rem;
     
 }
 .footer ul{
     list-style: none;
     margin: 0px;
-    padding: 40px;
+    padding: 1.5rem;
     text-align: center;
     
 }
 .footer li{
     display: inline-block;
-    margin: 0px 40px;
+    margin: 0px 2.5rem;
     
 }
 .footer a{
     color: rgb(169, 174, 175);
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.25rem;
 
 }
 .footer a:hover,
@@ -243,5 +243,8 @@ body {
     background-color: #203042;
     color: #7B90A1;
     text-align: center;
-    padding: 8px;
+    padding: 0.5rem;
+    margin: 0px;
+    position: relative;
+    bottom: 0px;
 }

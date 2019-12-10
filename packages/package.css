@@ -1,17 +1,17 @@
 .section-1{
     background: rgba(213, 255, 220, 0.95);
-    padding: 32px;
+    padding: 2rem;
     width: 70%;
-    margin:32px 0px;  
+    margin:2rem 0rem;  
 }
 #plus{
     position: relative;
 }
 .section-3{
     background-color: rgb(98, 151, 85);
-    padding: 32px;
+    padding: 2rem;
     width: 70%;
-    margin:32px 0px;
+    margin:2rem 0rem;
 }
 .section-1 a,
 .section-3 a{
@@ -32,9 +32,9 @@
 .content{
     color: rgb(32, 109, 32);
     background: white;
-    padding: 16px;
+    padding: 2rem;
     border: 1px solid rgb(32, 109, 32);
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 .section-1,
 .section-3{
@@ -80,9 +80,9 @@
     position: absolute;
     top: 0;
     right: 0;
-    margin: 20px;
-    font-size: 12px;
+    margin: 1.25rem;
+    font-size: 0.75rem;
     color: white;
     background: #ff5454;
-    padding: 8px;
+    padding: 0.5rem;
 }

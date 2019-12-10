@@ -2,7 +2,7 @@
     width: 30%;
     display: inline-block;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 2.5rem;
     vertical-align: middle;
     box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
 }
@@ -14,14 +14,14 @@
     display: inline-block;
     width: 40%;
     vertical-align: middle;
-    margin: 48px;
+    margin: 3rem;
 }
 .testimonial__name{
     color: brown;
     font-weight: bold;
 }
 .testimonial__text{
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 .testimonial__subtitle a{
     text-decoration: none;
@@ -38,6 +38,7 @@
 }
 #customer-2{
     text-align: right;
+    margin: 2rem 0rem;
 }
 #customer-2 .testimonial__info{
     text-align: left;
