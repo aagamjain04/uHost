@@ -14,8 +14,7 @@ body {
     background-clip: border-box;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 50vh;
-    background-position-y:30%;
+    height: 60vh;
     padding: 0.625rem; 
   
 }
