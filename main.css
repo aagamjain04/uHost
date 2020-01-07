@@ -6,6 +6,50 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 3.6875rem 0rem 0rem 0rem;
 }
+.modal{
+    position: fixed;
+    display: none;
+    z-index: 200;
+    top: 20%;
+    left: 30%;
+    width: 40%;
+    background: white;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px rgba(0,0,0,0.5) ;
+    
+}
+.modal_title{
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+.modal_actions{
+    text-align: center;
+}
+.modal_action{
+    border: 1px solid #0e4f1f;
+    background: #0e4f1f;
+    text-decoration: none;
+    color: white;
+    font: inherit;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+
+}
+.modal_action:hover,
+.modal_action:active{
+    background: #2ddf5c;
+    border-color: #2ddf5c;
+}
+#no{
+    background: red;
+    border-color: red;
+}
+#no:hover,
+#no:active{
+    background: #ff5454;
+    border-color:#ff5454 ;
+}
 
 #product-overview {
     background: url("images/freedom.jpg");

@@ -6,6 +6,7 @@
 }
 #plus{
     position: relative;
+    z-index: 0;
 }
 .section-3{
     background-color: rgb(98, 151, 85);
