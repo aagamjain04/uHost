@@ -28,12 +28,15 @@ body {
 }
 .modal_action{
     border: 1px solid #0e4f1f;
+    /* border-radius: 2rem; */
     background: #0e4f1f;
     text-decoration: none;
     color: white;
     font: inherit;
     padding: 0.5rem 1rem;
     cursor: pointer;
+    margin:0rem 0.5rem
+    
 
 }
 .modal_action:hover,
@@ -44,6 +47,7 @@ body {
 #no{
     background: red;
     border-color: red;
+  
 }
 #no:hover,
 #no:active{
