@@ -12,16 +12,17 @@ body {
     z-index: 200;
     top: 20%;
     left: 30%;
-    width: 40%;
-    background: white;
+    width: 35%;
+    background: rgb(228, 240, 187);
     padding: 1rem;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(22, 20, 20);
     box-shadow: 1px 1px rgba(0,0,0,0.5) ;
     
 }
 .modal_title{
     text-align: center;
     margin: 0 0 1rem 0;
+    color: rgb(41, 37, 48);
 }
 .modal_actions{
     text-align: center;
@@ -29,29 +30,30 @@ body {
 .modal_action{
     border: 1px solid #0e4f1f;
     /* border-radius: 2rem; */
-    background: #0e4f1f;
+    background: #f6faf7;
     text-decoration: none;
-    color: white;
+    color: rgb(24, 22, 22);
     font: inherit;
     padding: 0.5rem 1rem;
     cursor: pointer;
-    margin:0rem 0.5rem
-    
+    margin:0rem 0.5rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
 
 }
 .modal_action:hover,
 .modal_action:active{
-    background: #2ddf5c;
+    background: #b0c4b6;
     border-color: #2ddf5c;
 }
 #no{
-    background: red;
-    border-color: red;
+    background: rgb(248, 245, 245);
+    border-color:rgb(134, 22, 22);
   
 }
 #no:hover,
 #no:active{
-    background: #ff5454;
+    background: #b18187;
     border-color:#ff5454 ;
 }
 

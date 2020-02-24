@@ -70,18 +70,21 @@ body {
     vertical-align: middle;
     }
 
-.main-nav__items {
+.main-nav__items
+ {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-.main-nav__item {
+.main-nav__item
+ {
     display: inline-block;
     margin: 0 1rem;
 }
 
-.main-nav__item a {
+.main-nav__item a
+ {
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -107,6 +110,30 @@ body {
     color:white;
     background: rgb(226, 97, 97);
     border: none;
+}
+.mobile-nav{
+    display: none;
+    position: fixed;
+    z-index: 101;
+    top: 0;
+    left: 0;
+    background: #25c4a4;
+    width: 80%;
+    height: 100vh;
+}
+.mobile-nav_items{
+    width: 90%;
+    height: 100%;
+    list-style: none;
+    margin: 10% auto;
+    padding: 0;
+    text-align: center;
+}
+.mobile-nav_item{
+    margin: 1rem 0;
+}
+.mobile-nav_item a {
+    font-size: 1.5rem;
 }
 .footer{
     background: #293B4F;
