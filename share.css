@@ -15,6 +15,28 @@ body {
     display: none;
 
 }
+.toggle-button:focus{
+    outline: none;
+}
+.toggle-button{
+    width: 3rem;
+    background:transparent;
+    border: none;
+    cursor: pointer;
+    padding-top: 0;
+    padding-bottom: 0;
+    vertical-align: middle;
+}
+.toggle-button__bar{
+width: 100%;
+height: 0.2rem;
+background:white;
+display: block;
+margin: 0.6rem 0;
+
+
+
+}
 
 .button{
     font: inherit;
@@ -38,15 +60,15 @@ body {
 .main-header {
     width: 100%;
     background: rgb(65, 64, 62);
-    padding: 1rem;
+    padding: 0.5rem;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1;
 }
 .line{
-    background-color: #25c4a4;
-    height: 0.25rem;
+    background-color: (37, 196, 164,0.03);
+    height: 0.2rem;
 }
 
 .main-header > div {
@@ -59,14 +81,14 @@ body {
     text-decoration: none;
     font-weight: bolder;
     font-size: 1.375rem;
-    
+    vertical-align: middle;
     
 }
 
 .main-nav {
     display: inline-block;
     text-align: right;
-    width: calc(100% - 4.625rem);
+    width: calc(100% - 8rem);
     vertical-align: middle;
     }
 
@@ -83,7 +105,8 @@ body {
     margin: 0 1rem;
 }
 
-.main-nav__item a
+.main-nav__item a,
+.mobile-nav_item a
  {
     text-decoration: none;
     color: white;
@@ -97,7 +120,9 @@ body {
     border-bottom: 2px solid white;
 }
 
-.main-nav__item--cta a {
+.main-nav__item--cta a,
+.mobile-nav_item--cta a
+ {
     color:black;
     background: white;
     padding: 0.5rem 1rem;
@@ -106,7 +131,9 @@ body {
 }
 
 .main-nav__item--cta a:hover,
-.main-nav__item--cta a:active {
+.main-nav__item--cta a:active,
+.mobile-nav_item--cta a:hover,
+.mobile-nav_item--cta a:active {
     color:white;
     background: rgb(226, 97, 97);
     border: none;
@@ -117,7 +144,7 @@ body {
     z-index: 101;
     top: 0;
     left: 0;
-    background: #25c4a4;
+    background: rgba(37, 196, 164, 0.95);
     width: 80%;
     height: 100vh;
 }
