@@ -17,6 +17,11 @@
     <div class="backdrop"></div>
     <header class="main-header">
         <div>
+            <button class='toggle-button'>
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+            </button>
             <a href="../index.html" class="main-header__brand">
                 uHost
             </a>
@@ -35,7 +40,22 @@
             </ul>
         </nav>
     </header>
-    <div class="line"></div>
+    <nav class="mobile-nav">
+        <ul class="mobile-nav_items">
+            <li class="mobile-nav_item">
+                <a href="../packages/index.html">Packages</a>
+            </li>
+            <li class="mobile-nav_item">
+                <a href="index.html">Customers</a>
+            </li>
+            <li class="mobile-nav_item mobile-nav_item--cta">
+                <a href="../start-hosting/index.html">Start Hosting</a>
+            </li>
+
+        </ul>
+    </nav>
+    <!-- <div class="line"></div> -->
+
     <main>
         <div>
             <div class="testimonial" id="customer-1">
@@ -82,5 +102,6 @@
             </nav>
             <p class="copyright">© Aagam Jain</p>
         </footer>
+        <script src="../share.js"></script>
 </body>
 </html>

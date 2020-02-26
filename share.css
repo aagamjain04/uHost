@@ -1,10 +1,7 @@
 * {
     box-sizing: border-box;
 }
-body {
-    font-family: 'Montserrat', sans-serif;
-    margin: 3.6875rem 0rem 0rem 0rem;
-}
+
 .backdrop{
     background:rgba(0,0,0,0.5);
     width: 100vw;
@@ -60,7 +57,7 @@ margin: 0.6rem 0;
 .main-header {
     width: 100%;
     background: rgb(65, 64, 62);
-    padding: 0.5rem;
+    padding: 0.35rem;
     position: fixed;
     top: 0;
     left: 0;
