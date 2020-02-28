@@ -17,7 +17,7 @@ body {
     padding: 1rem;
     border: 1px solid rgb(22, 20, 20);
     box-shadow: 1px 1px rgba(0,0,0,0.5) ;
-    
+
 }
 .modal_title{
     text-align: center;
@@ -49,7 +49,7 @@ body {
 #no{
     background: rgb(248, 245, 245);
     border-color:rgb(134, 22, 22);
-  
+
 }
 #no:hover,
 #no:active{
@@ -66,9 +66,9 @@ body {
     background-position: bottom 55% right 50%;
     width: 100vw;
     height: 33vh;
-    padding: 0.625rem; 
+    padding: 0.625rem;
     position: relative;
-  
+
 }
 /* #product-overview {
     background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
@@ -123,28 +123,21 @@ body {
     background: #c3f0a3;
     text-align: center;
     padding: 1rem;
-    margin: 0.5rem;
-    display: inline-block;
-    width: 30%;
-    vertical-align: middle;
+    margin: 1rem 0;
+    width: 100%;
 }
-#plan-sec{
-    margin: auto;
-    width: 80%;
-    padding: 0.625rem;
-    text-align: center;
-}
+
 .centre-plan{
     color: white;
     background-color: rgb(98, 151, 85);
-    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+   
 }
 .recommended{
     background: white;
     color:rgb(32, 109, 32);
     border-radius: 0.5rem;
     padding: 0.25rem 0rem;
-    box-shadow:  2px 2px 2px 2px rgba(0,0,0,0.5);;
+    box-shadow:  2px 2px 2px 2px rgba(0,0,0,0.5);
 }
 .list{
     list-style: none;
@@ -153,7 +146,7 @@ body {
     }
 .list li{
     margin:0.5rem 0rem;
-} 
+}
 .plan-type{
     color: rgb(32, 109, 32);
 }
@@ -163,6 +156,25 @@ body {
 .centre-plan h2{
     color: rgb(32, 109, 32);
 }
+@media(min-width:40rem){
+    .plan{
+        display: inline-block;
+        width: 30%;
+        vertical-align: middle;
+        margin: 0.5rem;
+    }
+    #plan-sec{
+    width: 80%;
+    text-align: center; 
+    margin: auto;
+    padding: 0.625rem;
+    min-width: 43rem;
+        }
+        .centre-plan{
+             box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+        }
+    }
+
 .button{
     font: inherit;
     color: white;
@@ -209,8 +221,8 @@ body {
     text-decoration: none;
     font-weight: bolder;
     font-size: 22px;
-    
-    
+
+
 }
 
 .main-nav {
@@ -249,7 +261,7 @@ body {
     background: white;
     padding: 8px 16px;
     border-radius: 8px;
-    
+
 }
 
 .main-nav__item--cta a:hover,
@@ -261,7 +273,8 @@ body {
 
 #reason{
     background-color:rgb(216, 113, 95);
-    margin: 5rem 2.5rem;
+    /* margin: 5rem 2.5rem; */
+    margin: 5rem 0rem;
     padding: 1.875rem;
 }
 #reason h1{
@@ -274,21 +287,20 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    
+
 }
 #reason li{
-    width: 30%;
-    display: inline-block;
-    vertical-align: top;
-    text-align: center;
-    margin: auto;
+    
+    
+    text-align: center; 
 
 }
 #reason p{
     color: #0b0e0d;
     font-size: 1.25rem;
     font-weight: bold;
-    
+    text-align: center;
+
 }
 #reason div{
     background-color: #f8f5f5;
@@ -296,27 +308,37 @@ body {
     width: 8rem;
     border: 2px solid;
     border-radius: 50%;
-    display: inline-block;
+    display: inline-block; 
     padding: 1.25rem;
-    
+
+}
+@media(min-width:40rem){
+    #reason li{
+            width: 30%;  
+     display: inline-block; 
+     vertical-align: top;
+    }
+    #reason{
+         margin: 5rem 2.5rem;
+    }
 }
 .footer{
     background: #293B4F;
     height: 5rem;
     margin:2rem 0rem 0rem 0rem;
-    
+
 }
 .footer ul{
     list-style: none;
     margin: 0px;
     padding: 1.5rem;
     text-align: center;
-    
+
 }
 .footer li{
     display: inline-block;
     margin: 0px 2.5rem;
-    
+
 }
 .footer a{
     color: rgb(169, 174, 175);
