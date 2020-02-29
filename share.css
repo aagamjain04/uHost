@@ -97,13 +97,18 @@ margin: 0.6rem 0;
 }
 
 .main-nav__item
- {
-    display: none;
+ {   display:none;
     margin: 0 1rem;
 }
 @media(min-width:40rem){
     .main-nav__item{
         display: inline-block;
+    }
+    .toggle-button{
+        display: none;
+    }
+    .main-header{
+        padding: 1rem;
     }
 }
 
