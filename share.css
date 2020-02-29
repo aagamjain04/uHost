@@ -12,6 +12,14 @@
     display: none;
 
 }
+@media(max-width:40rem)
+{
+   .toggle{
+    width: calc(100% - 7rem);
+    text-align: right;
+   }
+}
+
 .toggle-button:focus{
     outline: none;
 }
@@ -62,6 +70,7 @@ margin: 0.6rem 0;
     top: 0;
     left: 0;
     z-index: 1;
+    max-height: 3.7rem;
 }
 .line{
     background-color: (37, 196, 164,0.03);
@@ -79,6 +88,7 @@ margin: 0.6rem 0;
     font-weight: bolder;
     font-size: 1.375rem;
     vertical-align: middle;
+    margin-left: 1rem;
     
 }
 
@@ -109,6 +119,9 @@ margin: 0.6rem 0;
     }
     .main-header{
         padding: 1rem;
+    }
+    .toggle{
+        display: none;
     }
 }
 

@@ -225,7 +225,7 @@ body {
 
 }
 
-.main-nav {
+/* .main-nav {
     display: inline-block;
     text-align: right;
     width: calc(100% - 74px);
@@ -269,7 +269,7 @@ body {
     color:white;
     background: rgb(226, 97, 97);
     border: none;
-}
+} */
 
 #reason{
     background-color:rgb(216, 113, 95);
