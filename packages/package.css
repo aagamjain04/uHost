@@ -2,6 +2,11 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 7rem 0rem 0rem 0rem;
 }
+.line{
+    background-color: (37, 196, 164,0.03) ;
+    height: 0.2rem;
+}
+
 
 .section-1{
     background: rgba(213, 255, 220, 0.95);

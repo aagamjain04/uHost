@@ -208,7 +208,8 @@ body {
 }
 .line{
     background-color: #25c4a4;
-    height: 4px;
+    height: 2px;
+    width: 100vw;
 }
 
 .main-header > div {
