@@ -63,6 +63,12 @@ margin: 0.6rem 0;
 .button:focus{
     outline:none;
 }
+.button[disabled]{
+    cursor: not-allowed;
+   background: #ccc; 
+   border: rgb(62, 66, 66);
+   color:rgb(62, 66, 66) ;
+}
 .main-header {
     width: 100vw;
     background: rgb(65, 64, 62);

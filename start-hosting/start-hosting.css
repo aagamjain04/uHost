@@ -1,3 +1,6 @@
+html{
+ background-image: url("../images/bg3.jpeg");
+}
 
 .signup-title{
     text-align: center;
@@ -23,7 +26,34 @@
 .signup-form input[id*="terms"] + label{
     display: inline-block;
     width: auto;
+    vertical-align: bottom;
 }
+.signup-form input:not([type="checkbox"]),
+.signup-form select{
+    border: 1px solid black;
+    padding: 0.2rem 0.5rem;
+    font: inherit;
+}
+.signup-form input:focus:not([type="checkbox"]),
+.signup-form select:focus{
+    outline: none;
+    background: #d8f3df;
+    border-color: #2ddf5c;
+}
+.signup-form input[type="checkbox"]{
+    height: 1rem;
+    width: 1rem;
+    
+    
+}
+.signup-form input:invalid,
+.signup-form select:invalid{
+    border-color: red;
+    background: rgb(221, 139, 139);
+}
+
+
+
 .signup-form button[type="submit"]
 {
     display:block;
@@ -32,7 +62,7 @@
 }
 @media(min-width:40rem){
     .signup-form{
-        width: 30rem;
+        width: 25rem;
         margin: auto;
     }
 
