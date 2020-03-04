@@ -43,3 +43,23 @@ var backdrop=document.querySelector(".backdrop");
  })
 }
 //  console.dir(backdrop);
+// var clickBtn = document.getElementsByClassName('click')[0];
+// var button = document.getElementById("button-green");
+// button.disabled = true;
+
+// //add event listener
+// clickBtn.addEventListener('click', function(event) {
+//     button.disabled = !button.disabled;
+// });
+// var button_green = document.getElementById("button-green");
+// var btnClk = document.getElementsByClassName("click")[0];
+// button_green.disabled = true;
+// btnClk.addEventListener('click',function(){
+//     button_green.disabled = !button_green.disabled;
+// })
+var button_green = document.getElementById("button-green");
+var btnClk = document.getElementById("agree-terms");
+button_green.disabled = true;
+btnClk.addEventListener('click',function(){
+    button_green.disabled = !button_green.disabled;
+})

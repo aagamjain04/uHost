@@ -17,7 +17,15 @@
 </head>
 
 <body>
-   
+    <div class="backdrop"></div>
+    <div class="modal">
+        <h1 class="modal_title">Do you want to continue?</h1>
+        <div class="modal_actions">
+            <a href="start-hosting/index.html" class="modal_action">Yes</a>
+            <button class="modal_action" id="no">No</button>
+
+        </div>
+    </div>   
     <header class="main-header">
         <div >
             <a  href="../index.html" class="main-header__brand">
@@ -76,11 +84,11 @@
             <input type="email" id="email">
             <label for="password">Password</label>
             <input type="password" id="password">
-            <input type="checkbox" id="agree-terms">
+            <input type="checkbox" id="agree-terms"> 
             <label for="agree-terms">Agree to
                 <a href="#">Terms &amp; Conditions</a>
             </label>
-            <button type="submit" class="button" disabled>Sign Up</button>
+            <button type="submit" class="button" id="button-green">Sign Up</button>
         </form>
        
     </main>
