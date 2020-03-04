@@ -1,0 +1,39 @@
+
+.signup-title{
+    text-align: center;
+    font-size: 2.3rem;
+    color: rgb(199, 74, 74);
+    margin-top: 3rem;
+}
+.signup-form{
+    padding: 1rem;
+}
+.signup-form label{
+    font-weight: bold;
+}
+.signup-form select,
+.signup-form input,
+.signup-form label{
+    display: block;
+    margin-top: 1rem;
+    width: 100%;
+}
+/* .signup-form input[type="checkbox"] */
+.signup-form input[id*="terms"],
+.signup-form input[id*="terms"] + label{
+    display: inline-block;
+    width: auto;
+}
+.signup-form button[type="submit"]
+{
+    display:block;
+    margin-top: 1rem;
+
+}
+@media(min-width:40rem){
+    .signup-form{
+        width: 30rem;
+        margin: auto;
+    }
+
+}
