@@ -78,7 +78,6 @@ body {
     height: 33vh;
     padding: 0.625rem;
     position: relative;
-
 }
 /* #product-overview {
     background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
@@ -103,6 +102,13 @@ body {
 .section-title {
     color: #5fa772;
     text-align: center;
+    font-family:cursive;
+}
+@media(min-width:40rem){
+    .section-title{
+        font-size: 2rem;
+        margin-top: 3rem
+    }
 }
 
 #product-overview h1 {
