@@ -13,7 +13,6 @@ body {
     top: 20%;
     right: 0;
     left: 0;
-   
     width: 100vw;
     background:white;
     padding: 1rem;
@@ -68,16 +67,17 @@ body {
 }
 
 #product-overview {
-    background: url("images/freedom.jpg");
+    background: url("images/cover4.jpg");
     background-origin: border-box;
     background-size: cover;
     background-clip: border-box;
     background-repeat: no-repeat;
-    background-position: bottom 55% right 50%;
+    background-position: bottom  right ;
     width: 100vw;
     height: 33vh;
     padding: 0.625rem;
     position: relative;
+    border-bottom: 1.2px black solid;
 }
 /* #product-overview {
     background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
@@ -112,12 +112,13 @@ body {
 }
 
 #product-overview h1 {
-    font-family: 'Righteous', cursive;
+    font-family: cursive;
+    margin-top: 4rem;
     font-size:1.6rem;
-    color:rgba(27, 25, 25, 0.829);
-    position: absolute;
-    bottom: 10%;
-    left: 45%;
+    color:rgb(44, 48, 39);
+    text-align: center;
+    background-color: white;
+    /* padding: 2rem 4rem; */
 }
 /* #product-overview h1 {
     color: white;
@@ -130,9 +131,10 @@ body {
 @media(min-width:40rem){
     #product-overview h1{
         font-size: 2.5rem;
+        /* margin:7rem auto; */
     }
     #product-overview{
-        height: 50vh;
+        height: 60vh;
     }
 }
 .plan{
@@ -291,7 +293,7 @@ body {
 #reason{
     background-color:rgb(216, 113, 95);
     /* margin: 5rem 2.5rem; */
-    margin: 5rem 0rem;
+    margin: 5rem 0rem 10rem 0rem; 
     padding: 1.875rem;
 }
 #reason h1{
@@ -336,10 +338,10 @@ body {
      vertical-align: top;
     }
     #reason{
-         margin: 5rem 2.5rem;
+         margin: 5rem 2.5rem 7rem 2.5rem;
     }
 }
-.footer{
+/* .footer{
     background: #293B4F;
     margin:2rem 0rem 0rem 0rem;
 
@@ -374,4 +376,4 @@ body {
     margin: 0px;
     position: relative;
     bottom: 0px;
-}
+} */

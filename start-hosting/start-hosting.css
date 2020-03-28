@@ -10,6 +10,7 @@ html{
 }
 .signup-form{
     padding: 1rem;
+    margin-bottom: 15rem;
 }
 .signup-form label{
     font-weight: bold;
@@ -64,6 +65,7 @@ html{
     .signup-form{
         width: 25rem;
         margin: auto;
+        margin-bottom: 15rem;
     }
 
 }

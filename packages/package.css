@@ -1,10 +1,19 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 7rem 0rem 0rem 0rem;
+    margin: 3.6875rem 0rem 0rem 0rem;
 }
 .line{
-    background-color: (37, 196, 164,0.03) ;
-    height: 0.2rem;
+    background-color: #25c4a4;
+    height: 3px;
+    width: 100vw;
+}
+@media(max-width:40rem)
+{
+    .line{
+        background-color: #25c4a4;
+        height: 5px;
+        width: 100vw;
+    }
 }
 
 
@@ -26,6 +35,9 @@ body {
     width: 70%;
     margin:2rem 0rem;
     min-width: 20rem;
+}
+#last{
+    margin-bottom: 10rem;
 }
 .section-1 a,
 .section-3 a{

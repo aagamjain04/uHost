@@ -4,10 +4,18 @@ body {
     margin: 3.6875rem 0rem 0rem 0rem;
 }
 .line{
-    background-color: (37, 196, 164,0.03);
-    height: 0.2rem;
+    background-color: #25c4a4;
+    height: 3px;
+    width: 100vw;
 }
-
+@media(max-width:40rem)
+{
+    .line{
+        background-color: #25c4a4;
+        height: 5px;
+        width: 100vw;
+    }
+}
 .testimonial__image-container{
      /* width: 80%; */
      width: 100%;
@@ -60,6 +68,10 @@ body {
 }
 .testimonial__info__2{
     text-align: left;
+}
+.last{
+    margin-bottom: 10rem;
+    vertical-align: middle;
 }
 @media(min-width:40rem){
     .testimonial__info{
