@@ -8,9 +8,14 @@ html{
     color: rgb(199, 74, 74);
     margin-top: 3rem;
 }
+
 .signup-form{
     padding: 1rem;
     margin-bottom: 15rem;
+    display: grid;
+    gap: 1.5rem;
+    align-items: center;
+    
 }
 .signup-form label{
     font-weight: bold;
@@ -19,7 +24,7 @@ html{
 .signup-form input,
 .signup-form label{
     display: block;
-    margin-top: 1rem;
+   
     width: 100%;
 }
 /* .signup-form input[type="checkbox"] */
@@ -58,14 +63,26 @@ html{
 .signup-form button[type="submit"]
 {
     display:block;
-    margin-top: 1rem;
-
+    justify-self: start;
+    
 }
+
 @media(min-width:40rem){
     .signup-form{
-        width: 25rem;
+        width: 35rem;
         margin: auto;
         margin-bottom: 15rem;
+        grid-template-columns: 10rem 20rem;
+        justify-content: center;
+        row-gap: 1.5rem;
     }
+    .conditions{
+        grid-column: span 2;
+    } 
+    #title
+{
+    grid-column: span 2;
+}
+
 
 }

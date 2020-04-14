@@ -1,3 +1,3 @@
-# first_website
-This is a sample website i am working on,while learning html,css,js.
-https://uhost.netlify.com/
+# Web Hosting Demo Website
+This is a website i made while learning html,css,js.
+https://uhost.netlify.app/
