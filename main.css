@@ -3,6 +3,7 @@
 }
 
 body {
+    background-color: #EAF6F6;
     font-family: 'Montserrat', sans-serif;
     margin: 3.6875rem 0rem 0rem 0rem;
 }
@@ -67,17 +68,19 @@ body {
 }
 
 #product-overview {
-    background: url("images/cover4.jpg");
+    /* background: url("images/12304.jpg");  */
     background-origin: border-box;
     background-size: cover;
     background-clip: border-box;
     background-repeat: no-repeat;
     background-position: bottom  right ;
-    width: 100vw;
-    height: 33vh;
+    width: 100vw; 
+    /* width: 50%; */
+    height: 33vh; 
     padding: 0.625rem;
     position: relative;
-    border-bottom: 1.2px black solid;
+    /* border-bottom: 1.2px black solid; */
+    margin:0 auto;
 }
 /* #product-overview {
     background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
@@ -98,25 +101,38 @@ body {
     /* position: relative;
   }
     */
-
+.plan-head{
+    border-style: solid;
+    border-radius: 10%;
+    border-color: rgb(196, 187, 187);
+    background-color: #b3d8d2;
+    
+    margin: 0 auto;
+}
 .section-title {
-    color: #5fa772;
+    color: #1e3d18;
     text-align: center;
     font-family:cursive;
+    margin: 0;
+
 }
 @media(min-width:40rem){
     .section-title{
         font-size: 2rem;
-        margin-top: 3rem
+    }
+    .plan-head{
+        width: 35%;
+        margin: 0 auto;
     }
 }
 
 #product-overview h1 {
-    margin-top: 4rem;
-    font-size:1.6rem;
-    color:rgb(44, 48, 39);
+    margin-top: 3rem;
+    font-size:2rem;
+    color:#45b29a;
     text-align: center;
-    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* background-color: white; */
     /* padding: 2rem 4rem; */
 }
 /* #product-overview h1 {
@@ -133,7 +149,7 @@ body {
         /* margin:7rem auto; */
     }
     #product-overview{
-        height: 60vh;
+        height: 40vh;
     }
 }
 .plan{
