@@ -1,3 +1,3 @@
 # Web Hosting Demo Website
-This is a website i made while learning html,css,js.
+A sample web hosting website made while learning html,css ans javascript.
 https://uhost.netlify.app/
