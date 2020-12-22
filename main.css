@@ -103,25 +103,26 @@ body {
     */
 .plan-head{
     border-style: solid;
-    border-radius: 10%;
-    border-color: rgb(196, 187, 187);
-    background-color: #b3d8d2;
-    
+    /* border-radius: 10%; */
+    border-color: rgb(73, 95, 80);
+    border-left: none;
+    border-right: none;
+    background-color: #b3d8b8;
+    padding: 2px;
     margin: 0 auto;
 }
 .section-title {
-    color: #1e3d18;
+    color: #332e2e;
     text-align: center;
-    font-family:cursive;
     margin: 0;
 
 }
 @media(min-width:40rem){
     .section-title{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .plan-head{
-        width: 35%;
+        width: 100%;
         margin: 0 auto;
     }
 }
